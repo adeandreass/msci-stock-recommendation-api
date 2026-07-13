@@ -1,0 +1,270 @@
+{
+    "metadata": {
+        "run_id": "deployment_20260619",
+        "deployment_cutoff_date": "2026-06-19",
+        "forecast_start_date": "2026-06-22",
+        "forecast_end_date": "2026-09-30",
+        "forecast_method": "Recursive One-Step Hybrid LSTM-XGBoost",
+        "profile_selection_note": "Profil investor ditentukan melalui kuesioner pada aplikasi. Profil hanya menentukan strategi portofolio yang ditampilkan."
+    },
+    "profiles": [
+        {
+            "profile_key": "conservative",
+            "profile_label": "Konservatif",
+            "strategy": "Minimum_Volatility",
+            "strategy_label": "Minimum Volatility",
+            "description": "Portofolio dengan fokus pada risiko atau volatilitas serendah mungkin.",
+            "portfolio_metrics": {
+                "Strategy": "Minimum_Volatility",
+                "Forecast_Horizon_Expected_Return": 0.0491797634,
+                "Forecast_Horizon_Expected_Return_Percent": 4.9179763439,
+                "Annualized_Expected_Return": 0.2324902104,
+                "Annualized_Expected_Return_Percent": 23.2490210396,
+                "Annualized_Volatility": 0.209064017,
+                "Annualized_Volatility_Percent": 20.9064016981,
+                "Annualized_Sharpe_Ratio": 1.1120527279
+            },
+            "active_asset_count": 11,
+            "holdings": [
+                {
+                    "Holding_Rank": 1,
+                    "Ticker": "INDF.JK",
+                    "Weight": 0.25,
+                    "Weight_Percent": 25.0,
+                    "Forecast_Horizon_Return_Percent": -0.2422017236,
+                    "Forecast_Annualized_Return_Percent": -0.8336137847,
+                    "Historical_Annualized_Volatility_Percent": 30.8492782524
+                },
+                {
+                    "Holding_Rank": 2,
+                    "Ticker": "UNTR.JK",
+                    "Weight": 0.1492043122,
+                    "Weight_Percent": 14.9204312155,
+                    "Forecast_Horizon_Return_Percent": 0.0882328871,
+                    "Forecast_Annualized_Return_Percent": 0.3049143891,
+                    "Historical_Annualized_Volatility_Percent": 38.8329341725
+                },
+                {
+                    "Holding_Rank": 3,
+                    "Ticker": "CPIN.JK",
+                    "Weight": 0.1209593334,
+                    "Weight_Percent": 12.0959333366,
+                    "Forecast_Horizon_Return_Percent": 27.8307977391,
+                    "Forecast_Annualized_Return_Percent": 133.4057690439,
+                    "Historical_Annualized_Volatility_Percent": 39.4714668698
+                },
+                {
+                    "Holding_Rank": 4,
+                    "Ticker": "BBRI.JK",
+                    "Weight": 0.1125062809,
+                    "Weight_Percent": 11.2506280898,
+                    "Forecast_Horizon_Return_Percent": 8.730931992,
+                    "Forecast_Annualized_Return_Percent": 33.5035855412,
+                    "Historical_Annualized_Volatility_Percent": 34.5587723688
+                },
+                {
+                    "Holding_Rank": 5,
+                    "Ticker": "BBCA.JK",
+                    "Weight": 0.0751880275,
+                    "Weight_Percent": 7.5188027497,
+                    "Forecast_Horizon_Return_Percent": 18.0066414769,
+                    "Forecast_Annualized_Return_Percent": 77.1026283721,
+                    "Historical_Annualized_Volatility_Percent": 34.8786538577
+                },
+                {
+                    "Holding_Rank": 6,
+                    "Ticker": "BMRI.JK",
+                    "Weight": 0.0735642422,
+                    "Weight_Percent": 7.3564242208,
+                    "Forecast_Horizon_Return_Percent": -5.0836549281,
+                    "Forecast_Annualized_Return_Percent": -16.4820332118,
+                    "Historical_Annualized_Volatility_Percent": 35.6157483775
+                },
+                {
+                    "Holding_Rank": 7,
+                    "Ticker": "ASII.JK",
+                    "Weight": 0.0623757238,
+                    "Weight_Percent": 6.2375723776,
+                    "Forecast_Horizon_Return_Percent": -0.4791528746,
+                    "Forecast_Annualized_Return_Percent": -1.6443676385,
+                    "Historical_Annualized_Volatility_Percent": 42.1485252512
+                },
+                {
+                    "Holding_Rank": 8,
+                    "Ticker": "BBNI.JK",
+                    "Weight": 0.0557396249,
+                    "Weight_Percent": 5.573962487,
+                    "Forecast_Horizon_Return_Percent": -8.1218431041,
+                    "Forecast_Annualized_Return_Percent": -25.3539629701,
+                    "Historical_Annualized_Volatility_Percent": 36.7568316255
+                },
+                {
+                    "Holding_Rank": 9,
+                    "Ticker": "AMRT.JK",
+                    "Weight": 0.0477325172,
+                    "Weight_Percent": 4.773251722,
+                    "Forecast_Horizon_Return_Percent": -1.0064146254,
+                    "Forecast_Annualized_Return_Percent": -3.4315391611,
+                    "Historical_Annualized_Volatility_Percent": 49.8166978942
+                },
+                {
+                    "Holding_Rank": 10,
+                    "Ticker": "DSSA.JK",
+                    "Weight": 0.026397283,
+                    "Weight_Percent": 2.639728298,
+                    "Forecast_Horizon_Return_Percent": 3.0681838031,
+                    "Forecast_Annualized_Return_Percent": 10.9958953269,
+                    "Historical_Annualized_Volatility_Percent": 89.8541158618
+                },
+                {
+                    "Holding_Rank": 11,
+                    "Ticker": "TLKM.JK",
+                    "Weight": 0.026332655,
+                    "Weight_Percent": 2.6332655029,
+                    "Forecast_Horizon_Return_Percent": 3.2817415951,
+                    "Forecast_Annualized_Return_Percent": 11.7918317086,
+                    "Historical_Annualized_Volatility_Percent": 45.768748267
+                }
+            ]
+        },
+        {
+            "profile_key": "moderate",
+            "profile_label": "Moderat",
+            "strategy": "Maximum_Sharpe",
+            "strategy_label": "Maximum Sharpe Ratio",
+            "description": "Portofolio dengan keseimbangan antara expected return dan risiko.",
+            "portfolio_metrics": {
+                "Strategy": "Maximum_Sharpe",
+                "Forecast_Horizon_Expected_Return": 0.1560699562,
+                "Forecast_Horizon_Expected_Return_Percent": 15.6069956228,
+                "Annualized_Expected_Return": 0.6944619569,
+                "Annualized_Expected_Return_Percent": 69.4461956855,
+                "Annualized_Volatility": 0.2471943401,
+                "Annualized_Volatility_Percent": 24.7194340082,
+                "Annualized_Sharpe_Ratio": 2.809376447
+            },
+            "active_asset_count": 7,
+            "holdings": [
+                {
+                    "Holding_Rank": 1,
+                    "Ticker": "BBRI.JK",
+                    "Weight": 0.25,
+                    "Weight_Percent": 25.0,
+                    "Forecast_Horizon_Return_Percent": 8.730931992,
+                    "Forecast_Annualized_Return_Percent": 33.5035855412,
+                    "Historical_Annualized_Volatility_Percent": 34.5587723688
+                },
+                {
+                    "Holding_Rank": 2,
+                    "Ticker": "BBCA.JK",
+                    "Weight": 0.25,
+                    "Weight_Percent": 25.0,
+                    "Forecast_Horizon_Return_Percent": 18.0066414769,
+                    "Forecast_Annualized_Return_Percent": 77.1026283721,
+                    "Historical_Annualized_Volatility_Percent": 34.8786538577
+                },
+                {
+                    "Holding_Rank": 3,
+                    "Ticker": "CPIN.JK",
+                    "Weight": 0.25,
+                    "Weight_Percent": 25.0,
+                    "Forecast_Horizon_Return_Percent": 27.8307977391,
+                    "Forecast_Annualized_Return_Percent": 133.4057690439,
+                    "Historical_Annualized_Volatility_Percent": 39.4714668698
+                },
+                {
+                    "Holding_Rank": 4,
+                    "Ticker": "TPIA.JK",
+                    "Weight": 0.1076617428,
+                    "Weight_Percent": 10.7661742771,
+                    "Forecast_Horizon_Return_Percent": 18.2648638788,
+                    "Forecast_Annualized_Return_Percent": 78.444018012,
+                    "Historical_Annualized_Volatility_Percent": 79.695854903
+                },
+                {
+                    "Holding_Rank": 5,
+                    "Ticker": "INDF.JK",
+                    "Weight": 0.1044612797,
+                    "Weight_Percent": 10.446127974,
+                    "Forecast_Horizon_Return_Percent": -0.2422017236,
+                    "Forecast_Annualized_Return_Percent": -0.8336137847,
+                    "Historical_Annualized_Volatility_Percent": 30.8492782524
+                },
+                {
+                    "Holding_Rank": 6,
+                    "Ticker": "UNTR.JK",
+                    "Weight": 0.0310196662,
+                    "Weight_Percent": 3.1019666186,
+                    "Forecast_Horizon_Return_Percent": 0.0882328871,
+                    "Forecast_Annualized_Return_Percent": 0.3049143891,
+                    "Historical_Annualized_Volatility_Percent": 38.8329341725
+                },
+                {
+                    "Holding_Rank": 7,
+                    "Ticker": "DSSA.JK",
+                    "Weight": 0.0068573113,
+                    "Weight_Percent": 0.6857311303,
+                    "Forecast_Horizon_Return_Percent": 3.0681838031,
+                    "Forecast_Annualized_Return_Percent": 10.9958953269,
+                    "Historical_Annualized_Volatility_Percent": 89.8541158618
+                }
+            ]
+        },
+        {
+            "profile_key": "aggressive",
+            "profile_label": "Agresif",
+            "strategy": "Maximum_Expected_Return",
+            "strategy_label": "Maximum Expected Return",
+            "description": "Portofolio dengan fokus pada expected return tertinggi dengan toleransi risiko lebih besar.",
+            "portfolio_metrics": {
+                "Strategy": "Maximum_Expected_Return",
+                "Forecast_Horizon_Expected_Return": 0.1820830877,
+                "Forecast_Horizon_Expected_Return_Percent": 18.2083087717,
+                "Annualized_Expected_Return": 0.8061400024,
+                "Annualized_Expected_Return_Percent": 80.6140002423,
+                "Annualized_Volatility": 0.3055084494,
+                "Annualized_Volatility_Percent": 30.5508449396,
+                "Annualized_Sharpe_Ratio": 2.6386831658
+            },
+            "active_asset_count": 4,
+            "holdings": [
+                {
+                    "Holding_Rank": 1,
+                    "Ticker": "BBCA.JK",
+                    "Weight": 0.25,
+                    "Weight_Percent": 25.0,
+                    "Forecast_Horizon_Return_Percent": 18.0066414769,
+                    "Forecast_Annualized_Return_Percent": 77.1026283721,
+                    "Historical_Annualized_Volatility_Percent": 34.8786538577
+                },
+                {
+                    "Holding_Rank": 2,
+                    "Ticker": "BBRI.JK",
+                    "Weight": 0.25,
+                    "Weight_Percent": 25.0,
+                    "Forecast_Horizon_Return_Percent": 8.730931992,
+                    "Forecast_Annualized_Return_Percent": 33.5035855412,
+                    "Historical_Annualized_Volatility_Percent": 34.5587723688
+                },
+                {
+                    "Holding_Rank": 3,
+                    "Ticker": "CPIN.JK",
+                    "Weight": 0.25,
+                    "Weight_Percent": 25.0,
+                    "Forecast_Horizon_Return_Percent": 27.8307977391,
+                    "Forecast_Annualized_Return_Percent": 133.4057690439,
+                    "Historical_Annualized_Volatility_Percent": 39.4714668698
+                },
+                {
+                    "Holding_Rank": 4,
+                    "Ticker": "TPIA.JK",
+                    "Weight": 0.25,
+                    "Weight_Percent": 25.0,
+                    "Forecast_Horizon_Return_Percent": 18.2648638788,
+                    "Forecast_Annualized_Return_Percent": 78.444018012,
+                    "Historical_Annualized_Volatility_Percent": 79.695854903
+                }
+            ]
+        }
+    ]
+}

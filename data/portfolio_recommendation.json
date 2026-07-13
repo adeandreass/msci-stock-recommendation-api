@@ -1,0 +1,110 @@
+{
+    "metadata": {
+        "run_id": "deployment_20260619",
+        "deployment_cutoff_date": "2026-06-19",
+        "forecast_start_date": "2026-06-22",
+        "forecast_end_date": "2026-09-30",
+        "recommended_strategy": "Maximum_Sharpe",
+        "qa_status": "PASS",
+        "qa_warning_count": 1
+    },
+    "portfolio_metrics": {
+        "forecast_horizon_expected_return_percent": 15.606995622818742,
+        "annualized_expected_return_percent": 69.44619568552287,
+        "annualized_volatility_percent": 24.719434008164367,
+        "annualized_sharpe_ratio": 2.8093764469925198
+    },
+    "recommended_holdings": [
+        {
+            "Ticker": "BBRI.JK",
+            "Last_Actual_Close": 2930.0,
+            "Forecast_End_Close": 3185.8163073659,
+            "Forecast_Horizon_Return_Percent": 8.730931992,
+            "Forecast_Annualized_Expected_Return_Percent": 33.5035855412,
+            "Historical_Annualized_Volatility_Percent": 34.5587723688,
+            "Weight": 0.25,
+            "Weight_Percent": 25.0,
+            "Allocation_IDR": 25000000.000000488,
+            "Included_in_Recommended_Portfolio": true,
+            "Recommended_Rank": 1.0
+        },
+        {
+            "Ticker": "BBCA.JK",
+            "Last_Actual_Close": 6300.0,
+            "Forecast_End_Close": 7434.418413043,
+            "Forecast_Horizon_Return_Percent": 18.0066414769,
+            "Forecast_Annualized_Expected_Return_Percent": 77.1026283721,
+            "Historical_Annualized_Volatility_Percent": 34.8786538577,
+            "Weight": 0.25,
+            "Weight_Percent": 25.0,
+            "Allocation_IDR": 24999999.999999233,
+            "Included_in_Recommended_Portfolio": true,
+            "Recommended_Rank": 2.0
+        },
+        {
+            "Ticker": "CPIN.JK",
+            "Last_Actual_Close": 3320.0,
+            "Forecast_End_Close": 4243.9824849367,
+            "Forecast_Horizon_Return_Percent": 27.8307977391,
+            "Forecast_Annualized_Expected_Return_Percent": 133.4057690439,
+            "Historical_Annualized_Volatility_Percent": 39.4714668698,
+            "Weight": 0.25,
+            "Weight_Percent": 25.0,
+            "Allocation_IDR": 24999999.99999819,
+            "Included_in_Recommended_Portfolio": true,
+            "Recommended_Rank": 3.0
+        },
+        {
+            "Ticker": "TPIA.JK",
+            "Last_Actual_Close": 2060.0,
+            "Forecast_End_Close": 2436.2561959028,
+            "Forecast_Horizon_Return_Percent": 18.2648638788,
+            "Forecast_Annualized_Expected_Return_Percent": 78.444018012,
+            "Historical_Annualized_Volatility_Percent": 79.695854903,
+            "Weight": 0.1076617428,
+            "Weight_Percent": 10.7661742771,
+            "Allocation_IDR": 10766174.27705914,
+            "Included_in_Recommended_Portfolio": true,
+            "Recommended_Rank": 4.0
+        },
+        {
+            "Ticker": "INDF.JK",
+            "Last_Actual_Close": 6725.0,
+            "Forecast_End_Close": 6708.7119340897,
+            "Forecast_Horizon_Return_Percent": -0.2422017236,
+            "Forecast_Annualized_Expected_Return_Percent": -0.8336137847,
+            "Historical_Annualized_Volatility_Percent": 30.8492782524,
+            "Weight": 0.1044612797,
+            "Weight_Percent": 10.446127974,
+            "Allocation_IDR": 10446127.97403655,
+            "Included_in_Recommended_Portfolio": true,
+            "Recommended_Rank": 5.0
+        },
+        {
+            "Ticker": "UNTR.JK",
+            "Last_Actual_Close": 22675.0,
+            "Forecast_End_Close": 22695.0068071485,
+            "Forecast_Horizon_Return_Percent": 0.0882328871,
+            "Forecast_Annualized_Expected_Return_Percent": 0.3049143891,
+            "Historical_Annualized_Volatility_Percent": 38.8329341725,
+            "Weight": 0.0310196662,
+            "Weight_Percent": 3.1019666186,
+            "Allocation_IDR": 3101966.6186011,
+            "Included_in_Recommended_Portfolio": true,
+            "Recommended_Rank": 6.0
+        },
+        {
+            "Ticker": "DSSA.JK",
+            "Last_Actual_Close": 850.0,
+            "Forecast_End_Close": 876.0795623263,
+            "Forecast_Horizon_Return_Percent": 3.0681838031,
+            "Forecast_Annualized_Expected_Return_Percent": 10.9958953269,
+            "Historical_Annualized_Volatility_Percent": 89.8541158618,
+            "Weight": 0.0068573113,
+            "Weight_Percent": 0.6857311303,
+            "Allocation_IDR": 685731.13030528,
+            "Included_in_Recommended_Portfolio": true,
+            "Recommended_Rank": 7.0
+        }
+    ]
+}
